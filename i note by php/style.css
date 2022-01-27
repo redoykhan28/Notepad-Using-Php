@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+    
+}
+
+body{
+    max-width: 100%;
+	background-image: url(note4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 680px;
+	
+
+}
+.nv1{
+
+    background-color: rgb(252,248,200,.6);
+    font:black;
+  
+}
+
+.tx1{
+
+    width: 700px;
+    border-radius: 10px;
+    outline: none;
+    transition: .30s
+    
+}
+.tx1:focus{
+
+    width: 900px;
+     border-color:black;
+    
+    }
+
+    .tx2{
+
+        width: 1000px;
+        border-radius: 10px;
+        outline: none;
+        transition: .30s
+        
+    }
+    .tx2:focus{
+    
+        width: 100%;
+         
+        
+        }
+        .tbbg{
+
+            background-color: rgb(252,248,200,.8);
+        }
